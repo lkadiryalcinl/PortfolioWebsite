@@ -48,6 +48,10 @@
   box-sizing: border-box;
 }
 
+body,html {
+  scroll-behavior: smooth;
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -68,6 +72,7 @@ body {
   color: #495057;
   text-align: left;
   background-color: #fff;
+  
 }
 
 [tabindex="-1"]:focus {
